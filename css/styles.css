@@ -1,0 +1,30 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.container {
+    margin: 20px;
+}
+.box-item {
+    min-height: 80px;
+    background-color: aqua;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+.mother-box {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    flex-wrap: wrap; 
+}
+.box {
+    background-color: darkorange;
+    flex: 1;
+    margin: 5px;
+    height: 300px;
+    width: 200px;
+     
+}
